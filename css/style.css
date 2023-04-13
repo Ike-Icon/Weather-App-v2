@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Lato:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/imgs/sky-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  max-width: 450px;
+  margin: 100px auto;
+  text-align: center;
+  border: solid 1px rgba(0, 0, 0, 0.226);
+  background-color: rgba(0, 0, 0, 0.568);
+  border-radius: 15px;
+  color: #fff;
+  padding: 40px;
+}
+.container h1 {
+  font-family: "Heebo", sans-serif;
+}
+.container h3 {
+  font-family: "Lato", sans-serif;
+  opacity: 0.7;
+  font-weight: 500;
+}
+.container section {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2em;
+}
+.container section strong {
+  font-weight: 600;
+}
+
+form {
+  margin-top: 20px;
+  font-family: "Heebo", sans-serif;
+}
+form label {
+  font-weight: 600;
+}
+
+input[type=text] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid rgba(221, 221, 221, 0.7254901961);
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background-color: rgba(221, 221, 221, 0.6784313725);
+}
+
+button {
+  font-size: 16px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #414040;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+#weather {
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */
